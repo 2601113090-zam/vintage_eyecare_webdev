@@ -37,7 +37,7 @@ nav {
 .brand-row {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-self: start;
     gap: 16px;
 }
 
