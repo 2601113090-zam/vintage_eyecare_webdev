@@ -30,7 +30,7 @@ header {
 nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     gap: 20px;
 }
 
@@ -63,7 +63,11 @@ nav {
 .branding p {
     color: var(--warm-beige);
 }
-
+.branch {
+    color: var(--warm-beige);
+    font-size: 15px;
+    justify-self: end;
+}
 .nav {
     display: flex;
     flex-wrap: wrap;
